@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "fabric-language-kotlin",
+  "id": "legacy-fabric-language-kotlin",
   "version": "$version",
-  "name": "Fabric Language Kotlin",
-  "description": "Fabric language module for Kotlin.",
+  "name": "Legacy Fabric Language Kotlin",
+  "description": "Fabric language module for Kotlin (unofficial distribution for pre-1.14 Minecraft versions).",
   "authors": [
+    "Luna",
     "FabricMC"
   ],
   "contact": {
-    "homepage": "https://minecraft.curseforge.com/projects/fabric-language-kotlin",
-    "irc": "irc://irc.esper.net:6667/fabric",
-    "issues": "https://github.com/FabricMC/fabric-language-kotlin/issues",
-    "sources": "https://github.com/FabricMC/fabric-language-kotlin"
+    "homepage": "https://modrinth.com/project/legacy-fabric-language-kotlin",
+    "issues": "https://github.com/lunaynx/fabric-language-kotlin/issues",
+    "sources": "https://github.com/lunaynx/fabric-language-kotlin"
   },
   "languageAdapters": {
     "kotlin": "net.fabricmc.language.kotlin.KotlinAdapter"
@@ -20,5 +20,8 @@
   "icon": "assets/fabric-language-kotlin/icon500.png",
   "depends": {
     "fabricloader": ">=0.19.5"
-  }
+  },
+  "provides": [
+    "fabric-language-kotlin"
+  ]
 }
